@@ -4,7 +4,7 @@
     --white: #ffffff;
     --gray: #777777;
     --black: #222222;
-    --reen: #46c672;
+    --green: #46c672;
     --red: #dc0000;
 }
 
@@ -100,7 +100,6 @@ body {
     width: 200px;
     margin: 0 auto;
     border: solid 2px var(--white);
-    border-radius: 7px;
     color: var(--white);
     text-align: center;
     font-size: 1.125rem;
@@ -115,7 +114,7 @@ body {
     color: var(--black);
 }
 
-/*--------block------------------------products----------------*/
+/*--------block------------------------products----------------------------------------------------------------------------------*/
 
 .block {
     padding: 60px 0;
@@ -147,7 +146,7 @@ body {
     margin: 0 auto;
 }
 
-/*------------------------------------------------*/
+/*--------------block block--background-------------------container-----------------------------------------------------------*/
 
 .block--background {
     position: relative;
@@ -165,7 +164,7 @@ body {
     top: 216px;
 }
 
-.items {
+.items-left {
     padding-left: 600px;
     text-align: left;
     padding-top: 120px;
@@ -194,24 +193,191 @@ body {
     letter-spacing: 0.6px;
 }
 
+.butt {
+    padding-top: 50px; 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.butt__two {
+    padding-top: 20px; 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
 .button {
-    padding: 20px 0;
+    padding: 15px 0;
     display: block;
     width: 70px;
     margin: 0 auto;
     border: solid 2px var(--black);
-    border-radius: 7px;
     color: var(--black);
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     transition: .1s color linear, .2s background ease;
-    margin-left: 30px;
 }
 
 .button:hover {
     background: var(--black);
     color: var(--white);
 }
+
+.button__SHSZ {
+    padding: 15px 0;
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    border: solid 2px var(--black);
+    color: var(--black);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .1s color linear, .2s background ease;
+}
+.button__SHSZ:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+.ellipse {
+    padding-top: 70px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.feature {
+    width: 570px;
+    float: left;
+    flex-basis: 30%;
+    text-align: left;
+    padding-top: 60px;
+}
+
+.feature__title {
+    margin-top: 31px;
+    font-family: 'Lato';
+    font-size: 1.875rem;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.feature__sub {
+    margin-top: 31px;
+    font-family: 'Lato';
+    font-size: 1rem;
+    color: var(--gray);
+    margin-bottom: 32px;
+}
+
+.feature__text {
+    width: 570px;
+    color: var(--gray);
+    padding-top: 31px;
+    padding-bottom: 31px;
+    font-weight: 300;
+}
+
+.button__READ {
+    padding: 15px 0;
+    display: block;
+    width: 170px;
+    border: solid 2px var(--black);
+    color: var(--black);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .1s color linear, .2s background ease;
+    margin-top: 31px;
+}
+
+.button__READ:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+.feature-left {
+    padding-top: 60px;
+    flex-basis: 70%;
+    padding-left: 600px;
+    text-align: left;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.info--background {
+    padding: 77px;
+    position: relative;
+    height: 250px;
+    background-image: url('../img/end/last--dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info--title {
+    font-size: 1rem;
+    text-align: left;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.email {
+    float: left;
+    margin-top: 30px;
+    width: 770px;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 0.813rem;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.email__links {
+    text-decoration: none;
+}
+
+.email__links:visited {
+    color: var(--white);
+}
+
+.email__links:hover {
+    color: var(--gray);
+}
+
+.button__sub {
+    padding-left: 900px;
+    margin-top: 30px;
+}
+
+.btn__SUBS {
+    padding: 15px 0;
+    display: block;
+    width: 270px;
+    border: solid 2px var(--white);
+    color: var(--black);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .1s color linear, .2s background ease;
+    background: var(--white);
+}
+
+.btn__SUBS:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+.heart {
+    text-align: center;
+    padding: 73px 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
 
